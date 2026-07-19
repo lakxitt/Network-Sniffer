@@ -28,30 +28,6 @@ This project implements a lightweight, modular network sniffer that captures liv
 
 ---
 
-## 🗂️ Project Structure
-
-```
-Basic-Network-Sniffer/
-├── main.py                      # Application entry point (CLI UI)
-├── requirements.txt
-├── README.md
-├── LICENSE
-├── config/
-│   └── settings.py              # Central configuration & protocol maps
-├── sniffer/
-│   ├── __init__.py
-│   ├── packet_capture.py        # Capture engine (Scapy sniff loop)
-│   ├── packet_parser.py         # Raw packet -> structured PacketInfo
-│   ├── protocol_detector.py     # Protocol number/port -> name resolution
-│   ├── logger.py                # File logging + CSV/JSON export
-│   └── statistics.py            # Packet counters & protocol statistics
-├── logs/                        # Generated at runtime
-├── screenshots/                 # Add your terminal screenshots here
-└── report/
-    └── internship_report.md
-```
-
----
 
 ## ⚙️ Requirements
 
@@ -73,7 +49,7 @@ rich>=13.7.0
 ```bash
 # 1. Clone or download the project
 git clone https://github.com/yourusername/Basic-Network-Sniffer.git
-cd Basic-Network-Sniffer
+
 
 # 2. (Recommended) Create a virtual environment
 python3 -m venv venv
@@ -146,7 +122,7 @@ Application-Layer Detections:
 ==================================================
 ```
 
-*(Add real terminal screenshots to the `screenshots/` folder for your submission.)*
+
 
 ---
 
@@ -159,16 +135,6 @@ Application-Layer Detections:
 
 ---
 
-## 🔮 Future Improvements
-
-- Protocol / IP / port filtering
-- In-memory packet search and CSV/JSON export
-- Add a live web-based dashboard (Flask/FastAPI + WebSockets)
-- Deep packet inspection for additional application protocols
-- GeoIP lookup for source/destination IPs
-- PCAP file import/export (Wireshark-compatible)
-- Alerting for suspicious traffic patterns (basic IDS features)
-
 ---
 
 ## 📄 License
@@ -177,4 +143,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 👤 Author
 
-Built as an internship / cybersecurity portfolio project.
+LakxitT
