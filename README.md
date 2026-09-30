@@ -41,7 +41,6 @@ colorama>=0.4.6
 rich>=13.7.0
 ```
 
----
 
 ## 🚀 Installation
 
