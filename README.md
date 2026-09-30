@@ -4,7 +4,6 @@ A professional, beginner-friendly **Python network packet sniffer** built with [
 
 > ⚠️ **Educational Use Only.** Only capture traffic on networks you own or have explicit written permission to monitor. Unauthorized packet sniffing may violate local laws and organizational policies.
 ---
----
 
 ## 📖 Project Overview
 
