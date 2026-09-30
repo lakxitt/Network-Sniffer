@@ -9,7 +9,7 @@ A professional, beginner-friendly **Python network packet sniffer** built with [
 
 This project implements a lightweight, modular network sniffer that captures live packets from a chosen network interface, parses them, and presents key details — source/destination IP, ports, protocol, MAC addresses, TCP flags, payload preview, and more — in a clean, color-coded console UI. It also logs every packet to disk and generates a session summary report when capture ends.
 
---- --- 
+--- 
 
 ## ✨ Features
 
