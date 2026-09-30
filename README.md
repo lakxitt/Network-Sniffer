@@ -3,7 +3,7 @@
 A professional, beginner-friendly **Python network packet sniffer** built with [Scapy](https://scapy.net/) and [Rich](https://github.com/Textualize/rich). Captures live network traffic, identifies protocols, and displays detailed packet information in a colorized terminal interface — built as a cybersecurity internship / portfolio project.
 
 > ⚠️ **Educational Use Only.** Only capture traffic on networks you own or have explicit written permission to monitor. Unauthorized packet sniffing may violate local laws and organizational policies.
-
+---
 ---
 
 ## 📖 Project Overview
